@@ -1,41 +1,38 @@
-# Prerequisites
-*.d
+# Visual Studio
+.vs/
+*.user
+*.suo
+*.opensdf
+*.sdf
+*.VC.db
+*.VC.opendb
 
-# Compiled Object files
-*.slo
-*.lo
-*.o
+# Builded
+x64/
+x86/
+Debug/
+Release/
 *.obj
-
-# Precompiled Headers
-*.gch
-*.pch
-
-# Linker files
-*.ilk
-
-# Debugger Files
 *.pdb
+*.log
 
-# Compiled Dynamic libraries
-*.so
-*.dylib
-*.dll
+# CMake
+CMakeCache.txt
+CMakeFiles/
+out/
 
-# Fortran module files
-*.mod
-*.smod
+# Siv3D Const
+Siv3D/*/Screenshot/
+Siv3D/*/Scene/
 
-# Compiled Static libraries
-*.lai
-*.la
-*.a
+# Photon / SDK / Cants
+external/
 *.lib
-
-# Executables
+*.dll
 *.exe
-*.out
-*.app
 
-# debug information files
-*.dwo
+# others
+*.ipch
+*.aps
+*.ncb
+*.opendb
